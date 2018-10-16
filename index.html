@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <link rel="stylesheet" href="app.css" type="text/css"/>
+  <title>Ryan's Coffee Shop</title>
+</head>
+<body>
+<div id="mainContainer">
+<div id="menuContainer">
+<h2>Menu - Click to Select</h2>
+<ul id="coffeeList">
+  <li>
+    <a onclick="selectExpresso()" href="#">Espresso - $2.50<img src="images/expresso.jpeg" height="100px" width="150px"></a>
+  </li>
+  <li>
+    <a onclick="function()" href="#">Macchiato - $3.00<img src="images/macchiato.jpeg" height="100px" width="150px"></a>
+  </li>
+  <li>
+    <a onclick="function()" href="#">Cappuccino - $3.50<img src="images/cappuccino.jpeg" height="100px" width="150px"></a>
+  </li>
+  <li>
+    <a onclick="function()" href="#">Caffé Latte - $4.00<img src="images/caffe_latte.jpeg" height="100px" width="150px"></a>
+  </li>
+  <li>
+    <a onclick="function()" href="#">Caffé Mocha - $5.00<img src="images/cafe_mocha.jpeg" height="100px" width="150px"></a>
+  </li>
+</ul>
+</div>
+
+<div id="deleteContainer">
+<input type="text" id="deleteBox" size="40" placeholder="Please enter email address to cancel order."/>
+<button id="deleteButton" onclick='deleteOrderByEmail()'>Order</button>
+</div>
+
+<div id="selectionContainer">
+</div>
+
+</div>
+
+
+<script src="app.js"> </script>
+</body>
+</html>

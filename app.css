@@ -1,0 +1,9 @@
+.mainContainer {
+    display: flex;
+}
+.menuContainer{
+  width: 50%;
+}
+.selectionContainer{
+  width: 50%;
+}
